@@ -1,0 +1,26 @@
+name: Tema de ejemplo vacío
+description: Tema de ejemplo vacío para la PID
+type: theme
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+libraries:
+  - tema/global-css
+  - tema/global-js
+
+regions:
+
+  header: 'Encabezado'
+  menu: 'Menu'
+  carrusel: 'Carrusel'
+  mensajes: 'Mensajes'
+  titulo: 'Titulo'
+  content: 'Contenido principal'
+  about: 'About'
+  tour: 'Tour'
+  paginabasica: 'Paginabasica'
+  datos: 'Datos'
+  destinations: 'Destinations'
+  blog: 'Blog'
+  contact: 'Contact'
+  footer: 'Pie de pagina'
